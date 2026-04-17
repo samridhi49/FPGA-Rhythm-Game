@@ -1,15 +1,22 @@
-# Vivado / build junk
+# Vivado junk
 *.log
 *.jou
-*.backup.*
-RemoteSystemsTempFiles/
+*.str
+
+# Build/cache folders
 .Xil/
 *.cache/
 *.gen/
-*.hw/
-*.ip_user_files/
 *.runs/
 *.sim/
+*.hw/
+*.ip_user_files/
 
-# macOS
+# SDK / BSP / MicroBlaze generated files
+bsp/
+libsrc/
+standalone_*/
+microblaze_0/
+
+# OS / temp files
 .DS_Store
