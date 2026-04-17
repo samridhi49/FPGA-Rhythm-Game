@@ -1,0 +1,15 @@
+# Vivado / build junk
+*.log
+*.jou
+*.backup.*
+RemoteSystemsTempFiles/
+.Xil/
+*.cache/
+*.gen/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+
+# macOS
+.DS_Store
