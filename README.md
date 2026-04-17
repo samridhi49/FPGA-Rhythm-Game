@@ -20,7 +20,7 @@ This project implements a four-lane rhythm game where notes fall in real time an
 ## Technical Highlights
 
 - Developed in **SystemVerilog**
-- Built a hardware audio pipeline using **ROM-based sample playback** and **PWM output**
+- Built a hardware audio pipeline using ROM-based sample playback and PWM output
 - Implemented lane-based rendering, hit/miss detection, and game state control
 - Integrated multiple hardware subsystems including:
   - VGA rendering
